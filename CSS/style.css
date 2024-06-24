@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    border: 1px solid black;
+}
+.h{
+    height: 5rem;
+}
+nav{
+    display: flex;
+    background-color: #EFE9EB;
+    height: 5rem;
+    
+}
+.logo-div{
+    width: 20%;
+    text-align: center;
+}
+.logo-div img{
+    width: 70%;
+    
+}
+.menu-div{
+    width: 80%;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    /* gap: 3rem; */
+    /* padding-top: 1rem; */
+}
+.nav-ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #444;
+    padding-inline: 2rem;
+    margin-right: 5rem;
+    padding-top: 1rem;
+    display: inline-block;
+}
+.banner-img{
+    height: 45rem;
+    background-image: url(/images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-img .cir-img-div{
+    position: absolute;
+    bottom: 5%;
+    left: 65%;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    /* background-color: crimson; */
+    background-image: url(/images/circular-img.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cir-img-div span{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.new-prod-div{
+    /* border: 1px solid; */
+    /* height: 20rem; */
+    display: flex;
+    background-color: #E9E7E8;
+    
+}
+.new-prod-div > div{
+    width: 50%;
+}
+.n-p-left{
+    padding: 4rem;
+}
+.np-p1{
+    text-transform: uppercase;
+    color: #444;
+    font-size: 1.4rem;
+
+}
+.np-h{
+    color: crimson;
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.np-ul{
+    list-style: none;
+}
+.np-ul li{
+    padding: .2rem 0;
+    color: #444;
+}
+.np-ul li a{
+    color: #444;
+}
+.n-p-right{
+    /*  */
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #C3C21A;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer > div{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+.fa-solid{
+    color: #f6f1f1;
+    font-size: 2rem;
+}
+.foot-p{
+    color: #f6f1f1;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
